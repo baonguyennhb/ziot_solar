@@ -1,0 +1,26 @@
+{
+  "name": "ziot_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Phuc Truong",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs-locals": "^1.0.2",
+    "express": "^4.18.1",
+    "express-group-routes": "^1.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.3",
+    "mqtt": "^4.3.7",
+    "random": "^3.0.6",
+    "validator": "^13.7.0"
+  }
+}
