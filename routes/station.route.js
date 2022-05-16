@@ -17,16 +17,7 @@ const router = express.Router()
 router.post('/station', controller.postAdd);
 
 // router.post('/station',async (req, res) => {
-//     // Create a new user
-//     try {
-//         const station = new Station(req.body)
-//         console.log(station)
-//         await station.save()
-//         //const token = await user.generateAuthToken()
-//         res.status(201).send({"result": 1, station })
-//     } catch (error) {
-//         res.status(400).send({"result": 0, error})
-//     }
+//     
 // })
 
 // router.get('/stations', async(req, res) => {
